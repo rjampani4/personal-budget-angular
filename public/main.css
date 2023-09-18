@@ -15,7 +15,7 @@ nav {
 }
 
 nav ul,
-nav ul li {
+nav li {
     margin: 0;
     padding: 0 ;
     list-style: none;
@@ -37,9 +37,9 @@ nav ul li a:hover  {
     color: #4d5791;
 }
 
-div.hero {
+header {
     height: 350px;
-    background-color: #3269eb;
+    background-color: #b4c6f0;
     background-image: url('/bg.png');
     background-size: 400px;
     background-repeat: no-repeat;
@@ -47,25 +47,60 @@ div.hero {
     padding-top: 40px;
 }
 
-div.hero h1,
-div.hero h2 {
+header h1,
+header h2 {
     text-align: center;
     margin: 0;
 }
 
-div.hero h1 {
+header h1 {
     color: #fff;
     font-size: 4.2em;
     margin-bottom: 20px;
 }
 
-div.hero h2 {
+header h2 {
     color: #4d5791;
 }
+
+/* .container {
+    padding: 40px;
+    width: 100%;
+}
+
+.page-area {
+    max-width: 768px;
+    display: inline-block;
+}
+
+.bottom {
+    height: 50px;
+    background-color: #b4c6f0;
+    padding: 40px;
+}
+
+.center {
+    text-align: center;
+}
+
+.container div.text-box {
+    display: inline-block;
+    width: 100%;
+    max-width: 340px;
+    text-align: justify;
+    margin: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .container .div.text-box {
+        margin: 10px;
+    }
+} */
 
 main {
     padding: 40px;
     width: 100%;
+    text-align: center;
 }
 
 .page-area {
@@ -78,6 +113,7 @@ footer {
     background-color: #b4c6f0;
     padding: 40px;
 }
+
 .skip {
     display: block;
     line-height: 44px;
@@ -88,9 +124,8 @@ footer {
 .skip:focus {
     margin-top: 0;
 }
-.center {
-    text-align: center;
-}
+
+
 
 main article {
     display: inline-block;
@@ -100,8 +135,15 @@ main article {
     margin: 20px;
 }
 
+.dark
+{
+    width: 150px;
+    font-size: 1.4em;
+    font-weight: 100;
+}
+
 @media screen and (min-width: 768px) {
-    .container .div.text-box {
+    main article {
         margin: 10px;
     }
 }
