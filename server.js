@@ -17,10 +17,8 @@ const budget = JSON.parse(fs.readFileSync('budget.json'));
 //     {
 //        title:'Rent',
 //        budget: 350 
-//     },
-//     {
-//         title: 'Groceries',
-//         budget: 90
+ //     {
+ //         budget: 90
 //     },
 
 //   ]
