@@ -1,9 +1,11 @@
 const express = require('express');
+const cors = require('cors');
 const app=express();
 const fs= require('fs');
 const port = 3000;
 
-app.use('/',express.static('public'));
+app.use(cors());
+// app.use('/',express.static('public'));
 const budget = JSON.parse(fs.readFileSync('budget.json'));
 
 
